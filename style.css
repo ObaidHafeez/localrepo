@@ -22,7 +22,7 @@ a{
 .top-section {
     display: flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: flex-start;
 }
 
        
@@ -32,6 +32,9 @@ a{
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
-        
+
 }
 
+.photo {
+    margin-left: 20px;
+}
